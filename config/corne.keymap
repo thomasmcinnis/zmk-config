@@ -21,7 +21,7 @@
             bindings = <
 &kp ESC    &kp Q  &kp W  &kp E             &kp R             &kp T              &kp Y        &kp U              &kp I      &kp O    &kp P     &kp MINUS
 &kp TAB    &kp A  &kp S  &kp D             &kp F             &kp G              &kp H        &kp J              &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C             &kp V             &kp B              &kp N        &kp M              &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
+&kp LSHFT  &kp Z  &kp X  &kp C             &kp V             &kp B              &kp N        &kp M              &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT ENTER
                          &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 1 BACKSPACE    &lt 2 SPACE  &kp RIGHT_COMMAND  &kp RALT
             >;
         };
@@ -34,10 +34,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp HASH   &kp AT_SIGN  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp KP_DIVIDE    &kp N7           &kp N8      &kp N9  &kp MINUS     &trans
-&trans  &kp GRAVE  &kp EXCL     &kp DOLLAR     &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp KP_MULTIPLY  &kp N4           &kp N5      &kp N6  &kp PLUS      &trans
-&trans  &kp CARET  &kp PERCENT  &kp ASTERISK   &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp KP_NUMBER_0  &kp N1           &kp N2      &kp N3  &kp KP_EQUAL  &trans
-                                &trans         &trans                &trans                   &trans           &kp KP_NUMBER_0  &kp PERIOD
+&trans  &kp GRAVE  &kp AMPS     &kp AT           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp KP_DIVIDE    &kp N7           &kp N8      &kp N9  &kp MINUS     &trans
+&trans  &kp STAR   &kp DOLLAR   &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp KP_MULTIPLY  &kp N4           &kp N5      &kp N6  &kp PLUS      &trans
+&trans  &kp HASH   &kp PERCENT  &kp BACKSLASH    &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp KP_EQUAL     &kp N1           &kp N2      &kp N3  &kp KP_EQUAL  &trans
+                                &trans           &trans                &trans                   &trans           &kp KP_NUMBER_0  &kp PERIOD
             >;
         };
 
@@ -49,10 +49,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp BSPC
-&trans  &trans    &trans  &trans    &trans    &trans       &kp LEFT   &kp DOWN  &kp UP           &kp RIGHT  &kp BSLH  &kp GRAVE
-&trans  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS  &kp LBRC         &kp RBRC   &kp PIPE  &kp TILDE
-                          &trans    &trans    &trans       &trans     &trans    &trans
+&trans  &kp GRAVE  &kp AMPS     &kp AT         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &trans
+&trans  &kp ASTRK  &kp DOLLAR   &kp EXCL       &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp LEFT   &kp DOWN  &kp UP           &kp RIGHT  &kp BSLH  &trans
+&trans  &kp HASH   &kp PERCENT  &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp UNDER  &kp PLUS  &kp LBRC         &kp RBRC   &kp PIPE  &trans
+                                &trans         &trans                &trans                   &trans     &trans    &trans
             >;
         };
     };
