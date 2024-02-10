@@ -19,10 +19,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E             &kp R             &kp T              &kp Y        &kp U              &kp I      &kp O    &kp P     &kp MINUS
-&kp TAB    &kp A  &kp S  &kp D             &kp F             &kp G              &kp H        &kp J              &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C             &kp V             &kp B              &kp N        &kp M              &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT ENTER
-                         &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 1 BACKSPACE    &lt 2 SPACE  &kp RIGHT_COMMAND  &kp RALT
+&kp ESC    &kp Q  &kp W  &kp E                 &kp R                 &kp T              &kp Y        &kp U                  &kp I             &kp O    &kp P     &kp MINUS
+&kp TAB    &kp A  &kp S  &kp D                 &kp F                 &kp G              &kp H        &kp J                  &kp K             &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C                 &kp V                 &kp B              &kp N        &kp M                  &kp COMMA         &kp DOT  &kp FSLH  &mt RIGHT_SHIFT ENTER
+                         &kp LC(LEFT_CONTROL)  &kp LG(LEFT_COMMAND)  &lt 1 BACKSPACE    &lt 2 SPACE  &kp LG(RIGHT_COMMAND)  &kp LG(LA(LALT))
             >;
         };
 
@@ -34,10 +34,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp GRAVE  &kp AMPS     &kp AT           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &kp KP_DIVIDE    &trans
-&trans  &kp STAR   &kp DOLLAR   &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_SUBTRACT  &trans
-&trans  &kp HASH   &kp PERCENT  &kp BACKSLASH    &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp KP_EQUAL     &trans
-                                &trans           &trans                &trans                   &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp PERIOD
+&trans  &kp LC(GRAVE)  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp LC(LG(NUMBER_4))  &none                  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &kp KP_DIVIDE    &trans
+&trans  &none          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(LEFT_ARROW)    &kp LC(RIGHT_ARROW)    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_SUBTRACT  &trans
+&trans  &kp LG(Z)      &kp LG(X)             &kp LG(C)             &kp LG(V)             &kp LG(B)              &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans           &kp KP_EQUAL     &trans
+                                             &trans                &trans                &trans                 &kp SPACE        &kp KP_NUMBER_0  &kp KP_N0
             >;
         };
 
@@ -49,10 +49,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp GRAVE  &kp AMPS     &kp AT         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &trans
-&trans  &kp ASTRK  &kp DOLLAR   &kp EXCL       &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp LEFT   &kp DOWN  &kp UP           &kp RIGHT  &kp BSLH  &trans
-&trans  &kp HASH   &kp PERCENT  &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp UNDER  &kp PLUS  &kp LBRC         &kp RBRC   &kp PIPE  &trans
-                                &trans         &trans                &trans                   &trans     &trans    &trans
+&trans  &kp GRAVE      &kp LS(AMPS)   &kp LS(AT)    &kp LS(LPAR)  &kp LS(RPAR)    &none     &none     &none   &none      &none  &trans
+&trans  &kp LS(STAR)   &kp LS(DLLR)   &kp LS(EXCL)  &kp LS(LBRC)  &kp LS(RBRC)    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &trans
+&trans  &kp LS(POUND)  &kp LS(PRCNT)  &kp BSLH      &kp LBKT      &kp RBKT        &none     &none     &none   &none      &none  &trans
+                                      &trans        &trans        &trans          &trans    &trans    &trans
             >;
         };
     };
